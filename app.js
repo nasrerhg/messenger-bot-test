@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const VERIFY_TOKEN = 'your_verification_token'; // Replace with your verification token from Facebook
+const VERIFY_TOKEN = 'EAAl2sij04xMBO2S79YKFMDQaTWZAZAhQJ2YP3QZBKjZCrnZBb9PTUX8LjPq7KL5NlXbdseAfKIZCnhaHaWohRwppieKMiVud3vVszHzFe1ZC7tdfUOfiaPTsCJRO1ZAzzn6RkgnccfZAUDX3icfCZCOpJ1HtgANuaPMfFo1Yz63NVbDDqWkcgUVNDdye1oStc4qsbY'; // Replace with your verification token from Facebook
 
 const app = express();
 app.use(bodyParser.json());
